@@ -12,7 +12,7 @@ cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
 
 # Check if the camera opened successfully
 if not cap.isOpened():
-    print("Error: Could not open camera.")
+    print("Error: Could not open camera. Could you try a different camera index. (Maybe 1 or 2).")
     exit()
 
 while True:
